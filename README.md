@@ -29,14 +29,23 @@ git clone https://github.com/JPierr3/bigdateros-whatsappbot-python.git
 ```bash
   cd bigdateros-whatsappbot-python
 ```
+2. Crea un ambiente virtual con la version de python 3.10
 
-2. Instala las dependencias
+```bash
+  virtualenv -p 3.10.11 .venv
+```
+3. Activa el ambiente virtual
+
+```bash
+  source .venv/bin/activate
+```
+4. Instala las dependencias
 
 ```bash
   pip install -r requirements.txt
 ```
 
-3. Corre el aplicativo
+5. Corre el aplicativo
 
 ```bash
   python app.py
