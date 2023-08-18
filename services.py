@@ -296,3 +296,10 @@ def replace_start(s):
         return "52" + s[3:]
     else:
         return s
+
+# para argentina
+def replace_start(s):
+    if s.startswith("549"):
+        return "54" + s[3:]
+    else:
+        return s
